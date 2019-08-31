@@ -1,5 +1,7 @@
 ---
 title: vps搭建
+tags:
+date:
 ---
 
 # vps搭建
