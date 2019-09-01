@@ -1,7 +1,7 @@
 ---
 title: vps搭建
-tags:
-date:
+tags: vps
+date: 2019-09-01
 ---
 
 # vps搭建
