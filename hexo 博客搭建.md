@@ -1,7 +1,8 @@
 ---
 title: hexo 博客搭建
 tags: hexo
-date: 2019-09-01
+date: 2019/09/01
+categories: blog
 ---
 
 # hexo 博客搭建

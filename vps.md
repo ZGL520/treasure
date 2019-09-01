@@ -1,7 +1,8 @@
 ---
 title: vps搭建
 tags: vps
-date: 2019-08-31
+date: 2019/08/31
+categories: vps
 ---
 
 # vps搭建

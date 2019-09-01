@@ -1,7 +1,9 @@
 ---
 title: nginx
 tags: linux
-date: 2019-09-01
+date: 2019/8/31
+update: 2019/9/1
+categories: linux
 ---
 
 # nginx使用
