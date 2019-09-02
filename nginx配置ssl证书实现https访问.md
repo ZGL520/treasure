@@ -54,3 +54,9 @@ categories: nginx
             location = /50x.html {
         }
     }
+
+配置好保存退出
+
+5，重启nginx
+
+    nginx -s reload
