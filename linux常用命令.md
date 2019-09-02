@@ -2,7 +2,7 @@
 title: linux 常用命令
 tags: linux
 date: 2019/09/02
-categories: linus
+categories: linux
 ---
 
 ## 上传文件夹
