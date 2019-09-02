@@ -1,6 +1,6 @@
 ---
 title: codepush
-tags: codepush react-native
+tags: react-native
 date: 2019/09/01
 categories: react-native
 ---
