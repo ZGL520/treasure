@@ -1,6 +1,6 @@
 ---
 title: linux 常用命令
-tags: linus
+tags: linux
 date: 2019/09/02
 categories: linus
 ---
