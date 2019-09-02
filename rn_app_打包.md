@@ -1,8 +1,8 @@
 ---
 title: rn-app-打包
-tags: react native
+tags: react-native
 date: 2019/8/27
-categories: react native
+categories: react-native
 ---
 
 
