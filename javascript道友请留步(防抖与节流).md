@@ -2,7 +2,7 @@
 title: javascript道友请留步(防抖与节流)
 tags: javascript道友请留步
 date: 2019/09/12
-categories: javascript
+categories: javascript道友请留步
 ---
 
 # javascript道友请留步(防抖与节流)
