@@ -45,6 +45,10 @@ categories: git
 
     git checkout master
 
+拉取远程分支到本地
+
+    git checkout -b <本地分支名> <远程分支名>
+
 查看日志
 
     git log
