@@ -53,6 +53,18 @@ categories: git
 
     git log
 
+远程仓库添加分支
+
+    git  push origin <本地分支名>:<远程分支名>
+
+删除远程分支
+
+    git branch -r -d <远程分支名>  //慎重
+
+关联当前分支到远程分支
+
+    git branch -u <远程仓库分支名>
+
 
 
 
