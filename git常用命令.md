@@ -65,6 +65,10 @@ categories: git
 
     git branch -u <远程仓库分支名>
 
+查看远程仓库地址
+
+    git remote -v
+
 
 
 
