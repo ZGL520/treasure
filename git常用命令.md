@@ -69,6 +69,10 @@ categories: git
 
     git remote -v
 
+合并目标分支到当前分支
+
+    git merge <目标分支名>
+
 
 
 
