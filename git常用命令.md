@@ -65,6 +65,11 @@ categories: git
 
     git branch -u <远程仓库分支名>
 
+关联当前分支到远程分支另一种方式
+
+    git branch --set-upstream-to=origin/<远程分支名>
+
+
 查看远程仓库地址
 
     git remote -v
