@@ -85,7 +85,7 @@ categories: blog
 做如下配置，主要看红框配置，其他配置看这篇文章 https://zgl1024.com/2019/09/01/hexo%20%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/ ssl配置看这篇 https://zgl1024.com/2019/09/02/nginx%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E5%AE%9E%E7%8E%B0https%E8%AE%BF%E9%97%AE/
 
 
-![nginx](https://github.com/ZGL520/MyImages/blob/master/QzpcVXNlcnNcd2ItemdsNTkyMjI2XEFwcERhdGFcUm9hbWluZ1xEaW5nVGFsa1w0MzQ5ODk5MjZfdjJcSW1hZ2VGaWxlc1wxNTY3NzU5NDM1OTA4XzJFQTRDRUZELUI5QzgtNGU3Ny05M0FELUUxNkVEREIyNjA2OC5wbmc=.png?raw=true)
+![nginx](https://gitlab.com/ZGL520/MyImages/raw/master/pic2.png)
     
 
 这里反向代理里的地址就是我们webhooks项目在服务器启动后的访问地址以及端口
@@ -98,7 +98,7 @@ categories: blog
 
 到这里我们已经准备好了服务，再需要的就是去github的博客文件仓库配置webhooks了，记住这里是‘github的博客文件仓库’，千万不要搞错了
 
-![webhooks](https://github.com/ZGL520/MyImages/blob/master/QzpcVXNlcnNcd2ItemdsNTkyMjI2XEFwcERhdGFcUm9hbWluZ1xEaW5nVGFsa1w0MzQ5ODk5MjZfdjJcSW1hZ2VGaWxlc1wxNTY3NzYwNDk0OTMyX0NGQ0VCQjMyLUU2RUItNDgwNS05ODUwLTFDNzU4NTg4MThEQi5wbmc=.png?raw=true)
+![webhooks](https://gitlab.com/ZGL520/MyImages/raw/master/pic3.png)
 
 
 
