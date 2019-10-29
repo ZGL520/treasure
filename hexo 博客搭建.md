@@ -79,27 +79,29 @@ hexo搭建博客系统，按照官方推荐方法将静态md文件放在source�
 
 作如下配置
 
-    server {
-        listen       80 default_server;
-        listen       [::]:80 default_server;
-        server_name  _;
-        root         /var/www/hexo;
-        index        index.html;
+```
+server {
+    listen       80 default_server;
+    listen       [::]:80 default_server;
+    server_name  _;
+    root         /var/www/hexo;
+    index        index.html;
 
-        # Load configuration files for the default server block.
-        include /etc/nginx/default.d/*.conf;
+    # Load configuration files for the default server block.
+    include /etc/nginx/default.d/*.conf;
 
-        location / {
-        }
-
-        error_page 404 /404.html;
-            location = /40x.html {
-        }
-
-        error_page 500 502 503 504 /50x.html;
-            location = /50x.html {
-        }
+    location / {
     }
+
+    error_page 404 /404.html;
+        location = /40x.html {
+    }
+
+    error_page 500 502 503 504 /50x.html;
+        location = /50x.html {
+    }
+}
+```
 
 保存配置
 

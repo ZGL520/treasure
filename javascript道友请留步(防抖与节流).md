@@ -16,10 +16,10 @@ categories: javascript道友请留步
 
 例子如下
 
-```
+```html
 <button id="debounce">debounce</button>
 ```
-```
+```javascript
 function debounce (fun, time){ //防抖
     let timeout = null;
     let deban = () => {
@@ -39,17 +39,17 @@ document.getElementById('debounce').addEventListener('click', debounce(handle,20
 
 debounce函数实现了一个功能，传入一个函数和间隔时间，当点击事件触发后如果两秒内没有再次发生点击事件则触发需要执行的handle函数，如果两秒内再次发生点击则重新计时。效果如下
 
-![debounce](https://gitlab.com/ZGL520/MyImages/raw/master/pic4.png)
+<img src="https://gitlab.com/ZGL520/MyImages/raw/master/pic4.png" width="500px"/>
 
 
 ## 节流 throttle
 
 所谓节流就是当一个事件持续触发的时候，按照固定的平率触发需要执行的函数，话不多说，上代码
 
-```
+```html
 <button id="throttle">throttle</button>
 ```
-```
+```javascript
 function throttle (fun, time) { //节流
     let resetTime = 0;
     return function() {
@@ -71,9 +71,7 @@ document.getElementById('throttle').addEventListener('click', throttle(handle, 1
 
 throttle函数实现了当传入一个函数和一个间隔时间数值时，如果点击时间联系发生，则会每间隔一秒执行一次handle函数，效果如下：
 
-![throttle](https://gitlab.com/ZGL520/MyImages/raw/master/pic5.png)
-
-
+<img src="https://gitlab.com/ZGL520/MyImages/raw/master/pic5.png" width="500px"/>
 
 以上就是简单实现了防抖和节流
 

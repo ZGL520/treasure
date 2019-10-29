@@ -21,6 +21,7 @@ categories: blog
 
 在项目下app.js中写如下代码，注意说明部分
 
+```javascript
     var http = require('http')
     var createHandler = require('github-webhook-handler')
     var handler = createHandler({ path: '/', secret: 'root' })
@@ -45,9 +46,11 @@ categories: blog
             console.log(res)
         })
     })
+```
 
 然后是发布脚本，这里叫deploy.sh 放在项目目录下，上一篇文章哪里叫update_doc_pro.sh,脚本如下,说明看看这篇文章 https://zgl1024.com/2019/09/01/hexo%20博客搭建/ ，注意相关路径
 
+```sh
     #！/bin/bash
     cd ~/blog/wukong/source
     rm -rf _posts
@@ -58,7 +61,7 @@ categories: blog
     hexo generate
     rm -rf /var/www/hexo/*
     cp -r ~/blog/wukong/public/* /var/www/hexo/
-
+```
 
 就这样，把项目放到github仓库
 
@@ -85,7 +88,7 @@ categories: blog
 做如下配置，主要看红框配置，其他配置看这篇文章 https://zgl1024.com/2019/09/01/hexo%20%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/ ssl配置看这篇 https://zgl1024.com/2019/09/02/nginx%E9%85%8D%E7%BD%AEssl%E8%AF%81%E4%B9%A6%E5%AE%9E%E7%8E%B0https%E8%AE%BF%E9%97%AE/
 
 
-![nginx](https://gitlab.com/ZGL520/MyImages/raw/master/pic2.png)
+<img src="https://gitlab.com/ZGL520/MyImages/raw/master/pic2.png" alt="img"/>
     
 
 这里反向代理里的地址就是我们webhooks项目在服务器启动后的访问地址以及端口
