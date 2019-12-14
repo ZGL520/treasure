@@ -1,11 +1,4 @@
----
-title: git 常用命令
-tags: git
-date: 2019/09/18
-categories: git
----
-
-# git 常用命令
+# git常用命令
 
 初始化仓库
 
@@ -64,11 +57,10 @@ categories: git
 关联当前分支到远程分支
 
     git branch -u <远程仓库分支名>
-
+    
 关联当前分支到远程分支另一种方式
 
     git branch --set-upstream-to=origin/<远程分支名>
-
 
 查看远程仓库地址
 
@@ -77,9 +69,32 @@ categories: git
 合并目标分支到当前分支
 
     git merge <目标分支名>
+    
+查看本地分支对应远程仓库分支
 
+    git branch -vv
 
+配置用户信息
 
+    git config --global user.name <name> //global
+    git config --system user.name <name> //system
+    git config --local user.name <name> //local
+    
+    git config --global user.email <email> //global
+    git config --system user.email <email> //system
+    gt config --local user.email <email> //local
+    
+查看用户信息
+
+    git config --global --list //global
+    git config --system --list //system
+    git config --local --list //local
+
+修改已提交用户信息
+
+    git reset --soft [版本号] //前往对应版本
+    git commit --amend --author='name <email>' //打开的文件中wq保持
+    
 
 
 

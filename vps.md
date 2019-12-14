@@ -1,10 +1,3 @@
----
-title: vps搭建
-tags: vps
-date: 2019/08/31
-categories: vps
----
-
 # vps搭建
 
 1,购买需服务器

@@ -1,11 +1,3 @@
----
-title: nginx安装
-tags: nginx
-date: 2019/8/31
-update: 2019/9/2
-categories: nginx
----
-
 # nginx使用
 
 ## nginx 安装

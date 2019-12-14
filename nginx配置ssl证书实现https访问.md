@@ -1,12 +1,3 @@
----
-title: nginx配置ssl证书实现https访问
-tags: nginx
-date: 2019/9/2
-update: 2019/9/2
-categories: nginx
----
-
-
 # nginx配置ssl证书实现https访问
 
 1,上阿里申请一个免费的ssl证书，我是这么干的，不免费也行，其他机构也行，总之搞到一个ssl证书

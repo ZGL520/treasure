@@ -1,10 +1,3 @@
----
-title: linux 常用命令
-tags: linux
-date: 2019/09/02
-categories: linux
----
-
 ## 上传文件夹
 
     scp -r <本地文件夹> username@ip:<服务器位置>

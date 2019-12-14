@@ -1,10 +1,3 @@
----
-title: codepush
-tags: react-native
-date: 2019/09/01
-categories: react-native
----
-
 codepush 用来热更新 app 里 js bundle 那一部份的内容
 详细的英文  文档
 [https://docs.microsoft.com/en-us/appcenter/distribution/codepush/](https://docs.microsoft.com/en-us/appcenter/distribution/codepush/)
